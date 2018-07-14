@@ -1,0 +1,251 @@
+Today's topic
+===========================
+-Applications of python
+-Python environment
+-Data type
+-Input/Output
+-Operator
+-Condition
+-Functions
+
+
+  -Applications of python
+==============================
+1. DataScience and Machine Learning and  AI 
+2. Automation 
+
+3. Web Development
+4. Security
+5. Ethical Hacking
+6. Automation testing 
+etc.
+
+-Python environment
+===============================
+-> python is open source(free) programing language
+->python is plateform independent (works on all os:linux, windows, mac etc)
+->python is interpreter based programing language (line by line execution)
+->python is indentation/allignment based language 
+
+
+Python Version:
+		3.7,3.6**,3.5,3.4...... 3.0, .... 2.7**
+		
+Coding Environment:
+		->Python Shell/command line/console
+			>>>
+		->IDLE/GUI
+			python file/code can be saved with .py extension 
+		->Third party tool:
+			-VSCode
+			-Pycharm
+			-Annoconda
+			-Spyder 
+			-Sublime
+			etc.
+
+Python First program / code
+======================================
+#    : single line comment
+'aa' : string
+"sss" : string
+
+''''		: multiple line comment  
+,sshshygs
+sjhs
+'''
+
+"""		: multiple line comment 
+
+
+skjsghs
+jsgsh
+
+
+"""
+
+
+****Python does allocate memory automatically 
+a =1   # here a is variable and 1 is data  , int 
+a = '111' # str 
+a =333.222  # float
+a = True # bool
+
+
+
+-Data type: is container type
+===================================
+-int          : d =333
+-float      : a = 4343.33
+-str         : a='dddds333' or a ="shsh22" 
+-bool     : a = True 
+-list      : a =[222,333,222,3333,444,222,'ffff'] # mutable /changable 
+-tuple   : a = (111,2,2,3,'dddd') #read only 
+-dict     : a={'a':'alpha',1:'one'} # key:value 
+-set      : a = {'dove','tv','dove'} # contains unique value , one dove will be removed automatically 
+
+function:
+	type(data) - return data type
+	int()   -type casting
+	str() - type casting
+	  	
+============== data type ============
+####data type
+
+
+a=111#int 
+print(type(a))
+
+
+a=111.444#float
+print(type(a))
+
+
+a='111' #str
+print(type(a))
+
+
+
+a="111" #str
+print(type(a))
+
+
+
+a=True # bool 
+print(type(a))
+
+
+
+a=[111,33,232,2,'4444']#list 
+print(type(a))
+
+
+
+a=(111,333,22,'222ee')#tuple 
+print(type(a))
+
+
+a={'a':'alpha','b':'beta','c':'ceta'}#dict 
+print(type(a))
+
+
+a={'dove','lux','dove'}#set 
+print(type(a))
+print(a)
+
+-Input/Output
+==============================
+n1 =float( input('enter  data  '))
+n2 =float( input('enter data '))
+
+#n1 =int(n1)
+#n2 =int(n2)
+#print (type(n1))
+
+n =n1+ n2
+
+print ('sum of two numbers  ',n)
+
+
+
+========================================
+2.7
+	input()   : number
+	raw_input()   : string   
+
+
+	print msg
+	print (msg)
+
+3.0+>
+	input()  : to read data, default data type is string 
+
+	print(msg)
+	
+
+-Operator
+========================
+Airthmetic :
+		+
+		-
+		*
+		**		: 2**3 = 8
+		/		: 85/10 = 8.5
+		//		: 85//10 = 8
+		%		: 85%10 = 5
+
+
+				85*.10
+
+			or 
+				85*10/100
+
+		example:
+			2+3*4 =  14
+			(2+3)*4 = 20
+			85/10  =8.5
+			85%10 = 5
+
+			n1 =1111
+			n2 =10
+
+			p = n1*n2/100    = 111
+
+Conditional":
+		>
+		>=
+		<
+		<=
+		==
+		!=
+
+		in
+		not in    
+
+Logical :
+	and 
+	or 				
+
+
+-Condition : is decision making statement 
+=======================
+**python doesn't support switch case
+if condition :
+
+
+1. if condition 
+2. if else condition 
+3. if elif elif condition  /ladder if else 
+4. if else nested 
+
+sn = int(input('enter sno : '))
+name = input('enter name : ')
+hs = int(input('enter mark in hindi : '))
+es = int(input('enter mark in eng. : '))
+cs = int(input('enter mark in computer : '))
+ms = int(input('enter mark in maths : '))
+
+total = hs+es+cs+ms
+avg = total/4
+print('sno is ',sn)
+print('name is ',name.title())
+print('total score is ',total)
+print('avg score is ',avg)
+
+
+if avg>=80:
+    print("Grade A")
+elif avg>=60 and avg<80     :
+    print("Grade B")
+elif avg>=50    :
+    print("Grade C")
+else:
+    print("Grade D")
+    
+
+    
+
+
+
+
+	
